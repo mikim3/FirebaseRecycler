@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NoticeBoard"></activity>
+        <activity android:name=".ShareActivity"></activity>
     </application>
 
 

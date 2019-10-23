@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity
         recyclerView.setLayoutManager( new LinearLayoutManager(this));
 
 
+
+
         reference = FirebaseDatabase.getInstance().getReference().child("Profiles");
         reference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -129,6 +131,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(MainActivity.this,NoticeBoard.class);
             startActivity(intent);
         } else if (id == R.id.nav_gallery) {
+            Intent intent2 =new Intent(MainActivity.this,ShareActivity.class);
+            startActivity(intent2);
 
         } else if (id == R.id.nav_slideshow) {
 

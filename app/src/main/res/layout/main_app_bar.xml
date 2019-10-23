@@ -21,7 +21,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
-    <include layout="@layout/activity_scrolling" />
+    <include layout="@layout/main_scrolling" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
